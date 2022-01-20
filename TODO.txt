@@ -1,0 +1,13 @@
+OpenCV CMake flags dependency
+ResNet DarkNet YoLO PoseNet DarkNet-ros
+
+
+tensorrt pycuda cudnn analysis
+
+
+ShellScript opensource analysis ex) gcc, make configure etc...
+
+
+
+Hadoop BigData
+Kubernetes Docker Dockerfile Aws
