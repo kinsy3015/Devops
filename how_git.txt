@@ -1,0 +1,26 @@
+============================
+
+
+git init
+
+git config --global user.email "kinsy3015@naver.com"
+git config --global user.name "Sunghan Kim"
+
+git remote add main https://github.com/Devops.git
+
+
+============================
+
+
+git add *
+git commit -m "update sh"
+*git branch other make branch
+*git checkout master
+*git branch main master -f
+*git checkout main
+*git push origin main -f
+git push
+
+
+email : just email
+passwd : author token 
