@@ -29,3 +29,4 @@ https://forums.developer.nvidia.com/t/nvidia-smi-has-failed-because-it-couldnt-c
 https://taaewoo.tistory.com/entry/Docker-Docker%EB%A1%9C-CDH-%EB%B0%B0%ED%8F%AC%ED%8C%90-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-1-%EA%B8%B0%EB%B3%B8-%EC%84%B8%ED%8C%85-%EB%B0%8F-Cloudera-Manager-Installer-%EB%8B%A4%EC%9A%B4-%EB%B0%9B%EA%B8%B0?category=862614
 https://ssup2.github.io/record/Hadoop_%EC%84%A4%EC%B9%98_%EC%84%A4%EC%A0%95_Ubuntu_18.04/
 https://kadensungbincho.tistory.com/29
+https://github.com/sabipeople/tegra/tree/master/tegra_multimedia_api/argus
