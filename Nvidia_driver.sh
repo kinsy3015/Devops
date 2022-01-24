@@ -19,3 +19,4 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt-get update -y
 echo "Please enter your nvidia-driver-xxx sudo apt-get install"
 
+https://drive.google.com/file/d/19sS1aPK7c6zpP1QTBCObvPFiF1YEVjgn/view?usp=sharing
