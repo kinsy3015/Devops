@@ -29,3 +29,21 @@ Solution :
 
 ==================================================================================================================
 using $nm -D .lib # debuging about print function list
+
+
+
+
+===================================================================================================================
+library version check :  dpkg -l | grep libxxxx
+.pc example : lib/pkgconfig/.pc
+
+prefix=/home/argos/argosvue_hmc
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libffi
+Description: Library ffi
+Version: 3.2.1
+Libs: -lffi
+Cflags:
