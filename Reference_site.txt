@@ -31,5 +31,3 @@ https://ssup2.github.io/record/Hadoop_%EC%84%A4%EC%B9%98_%EC%84%A4%EC%A0%95_Ubun
 https://kadensungbincho.tistory.com/29
 https://github.com/sabipeople/tegra/tree/master/tegra_multimedia_api/argus
 https://access.redhat.com/solutions/155873 # HDD error
-https://www.pcsuggest.com/bluetooth-linux-part-2/ # bluetooth device
-https://www.maketecheasier.com/setup-bluetooth-in-linux/ # bluetooth device
