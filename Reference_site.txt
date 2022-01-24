@@ -30,3 +30,4 @@ https://taaewoo.tistory.com/entry/Docker-Docker%EB%A1%9C-CDH-%EB%B0%B0%ED%8F%AC%
 https://ssup2.github.io/record/Hadoop_%EC%84%A4%EC%B9%98_%EC%84%A4%EC%A0%95_Ubuntu_18.04/
 https://kadensungbincho.tistory.com/29
 https://github.com/sabipeople/tegra/tree/master/tegra_multimedia_api/argus
+https://access.redhat.com/solutions/155873 # HDD error
