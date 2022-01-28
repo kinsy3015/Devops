@@ -32,3 +32,4 @@ https://kadensungbincho.tistory.com/29
 https://github.com/sabipeople/tegra/tree/master/tegra_multimedia_api/argus
 https://access.redhat.com/solutions/155873 # HDD error
 https://www.cyberciti.biz/faq/how-to-get-source-code-of-package-using-the-apt-command-on-debian-or-ubuntu/
+https://jjeongil.tistory.com/1308 # desktop simple opencv install tutorial
