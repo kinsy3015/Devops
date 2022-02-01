@@ -47,3 +47,6 @@ Description: Library ffi
 Version: 3.2.1
 Libs: -lffi
 Cflags:
+
+=================================================================================================================
+useful command : find / -iname cl.h 2>/dev/null
