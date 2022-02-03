@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+
+1. nvidia-driver manually install && apt nvidia driver install
+2. cuda toolkit, cudnn download from nvidia site(compat version download)
+3. cudnn cp -rf * include lib64 to /usr/local/cuda-11.4/libs/ /usr/loca/cuda-11.4/include/
+4.
+
+
+
+
+
+5.$ vim .bashrc
+
+
+
+-- 추가 --
+
+export CUDA_HOME=/usr/local/cuda
+
+export LD_LIBRARY_PATH=${CUDA_HOME}/lib64 
+
+ 
+
+PATH=${CUDA_HOME}/bin:${PATH} 
+
+export PATH 
+
+저장후 종료
