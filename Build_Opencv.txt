@@ -8,8 +8,40 @@
 
 1. nvidia-driver manually install && apt nvidia driver install
 2. cuda toolkit, cudnn download from nvidia site(compat version download)
-3. cudnn cp -rf * include lib64 to /usr/local/cuda-11.4/libs/ /usr/loca/cuda-11.4/include/
+2-1. cudnn library tar.gz download
+2-2. tar xf cudnn.deb
+3. cp -rf include/ lib64/ /usr/local/cuda-11.4/include /usr/loca/cuda-11.4/lib64
 4.
+
+
+
+cmake \ -D CMAKE_BUILD_TYPE=RELEASE \
+-D CMAKE_INSTALL_PREFIX=/usr/local \
+-D OPENCV_GENERATE_PKGCONFIG=ON \
+-D OPENCV_ENABLE_NONFREE=ON \
+-D OPENCV_EXTRA_MODULES_PATH=/home/argos/opencv/opencv_contrib/modules \
+-D INSTALL_C_EXAMPLES=ON \
+-D INSTALL_PYTHON_EXAMPLES=ON \
+-D BUILD_EXAMPLES=ON \
+-D BUILD_DOCS=OFF \
+-D BUILD_SHARED_LIBS=ON \
+-D BUILD_opencv_python2=OFF \
+-D BUILD_opencv_python3=ON \
+-D BUILD_NEW_PYTHON_SUPPORT=ON \
+-D WITH_CUDA=ON \
+-D WITH_CUBLAS=ON \
+-D WITH_CUDNN=ON \
+-D CUDA_FAST_MATH=1 \
+-D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-11.4 \
+-D OPENCV_DNN_CUDA=ON \
+-D CUDA_ARCH_BIN=7.5 \
+-D CUDA_ARCH_PTX=7.5 \
+-D CUDNN_VERSION=8.2 \
+-D CUDNN_INCLUDE_DIR=/usr/local/cuda-11.4/include \
+-D CUDNN_LIBRARY=/usr/local/cuda-11.4/lib64/libcudnn.so.8.2.4 \
+-D WITH_VTK=ON \
+-D WITH_OPENCL=ON ..
+
 
 
 
@@ -32,3 +64,11 @@ PATH=${CUDA_HOME}/bin:${PATH}
 export PATH 
 
 저장후 종료
+
+
+
+reference site :
+
+https://lapina.tistory.com/133
+https://lapina.tistory.com/132
+https://developer.nvidia.com/cuda-gpus
