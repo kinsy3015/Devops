@@ -1,8 +1,7 @@
 
 
 
-
-
+git clone opencv && opencv_contrib
 
 
 
