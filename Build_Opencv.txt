@@ -44,7 +44,7 @@ cmake \ -D CMAKE_BUILD_TYPE=RELEASE \
 
 
 
-
+cmake verison upgrade?
 
 5.$ vim .bashrc
 
