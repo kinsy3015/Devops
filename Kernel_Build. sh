@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# using mainline => upgrade Kernel
+
+# this method wget or web direct download about kernel source code
+
+# tar xf linux-kernel-xx-xx.tar.gz
+# cd linux-kernel-xx-xx.tar.gz
+sudo install bison flex libncurses-dev -y
+make menuconfig
+
+
+
+# after create .config file 
+# sudo make
+# sudo make modules
+# sudo make modules_install
+# sudo make install
+# reboot
