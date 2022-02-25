@@ -34,3 +34,4 @@ https://access.redhat.com/solutions/155873 # HDD error
 https://www.cyberciti.biz/faq/how-to-get-source-code-of-package-using-the-apt-command-on-debian-or-ubuntu/
 https://tutorialforlinux.com/2020/04/22/how-to-install-libtiff4-libtiff4-dev-on-ubuntu-20-04/3/ # install libtiff4 libtiff4-dev
 https://velog.io/@psh4204/Jetson-nano-3.-VNC-%EC%84%A4%EC%A0%95 #jetson nano vnc
+https://progtpoint.blogspot.com/2017/06/key-board-ascii-key-code.html
