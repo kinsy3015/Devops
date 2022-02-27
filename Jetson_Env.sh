@@ -37,3 +37,6 @@ cd ..
 sudo apt-get install lightdm -y
 
 sudo apt-get purge gdm3 -y
+
+# ubuntu startup-application cli :
+# gnome-session-properties 
