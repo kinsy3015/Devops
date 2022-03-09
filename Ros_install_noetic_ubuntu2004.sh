@@ -24,10 +24,10 @@ sudo rosdep init
 
 rosdep update
 
-mkdir -p ~/catkin_ws/src
+#mkdir -p ~/catkin_ws/src
 
-cd ~/catkin_ws
+#cd ~/catkin_ws
 
-source ~/.bashrc
+#source ~/.bashrc
 
-catkin_make
+#catkin_make
