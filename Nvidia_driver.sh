@@ -6,14 +6,14 @@ echo "go nvidia-driver install homepage and compatablie version download"
 
 sudo /etc/init.d/lightdm stop
 
-vim /etc/modprobe.d/blacklist.conf
+sudo vim /etc/modprobe.d/blacklist.conf
 
 # add line blacklist nouveau
 
 echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/nouveau-kms.conf
 
 
-update-initramfs -u
+sudo update-initramfs -u
 
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt-get update -y

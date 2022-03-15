@@ -51,3 +51,4 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 # https://rodrigodzf.github.io/setup/cuda/2019/04/15/cuda-setup.html
 # https://forums.developer.nvidia.com/t/ubuntu-18-04-login-loop-after-installing-nvidia-driver/81280
 # https://hyunsoft.tistory.com/m/entry/%EB%A6%AC%EB%88%85%EC%8A%A4-nvidia-driver-%EC%9E%AC%EC%84%A4%EC%B9%98-%EC%98%A4%EB%A5%98
+# https://forums.developer.nvidia.com/t/ubuntu-18-04-login-loop-after-installing-nvidia-driver/81280
