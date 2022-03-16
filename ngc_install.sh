@@ -31,3 +31,5 @@ echo "export PATH=\"\$PATH:$(pwd)\"" >> ~/.bash_profile && source ~/.bash_profil
 # https://github-wiki-see.page/m/pantelis-classes/omniverse-ai/wiki/TAO-%28NVIDIA-Train%2C-Adapt%2C-and-Optimize%29
 
 # https://eehoeskrap.tistory.com/526
+
+# https://developer.nvidia.com/blog/real-time-redaction-app-nvidia-deepstream-part-1-training/
