@@ -26,3 +26,8 @@ echo "export PATH=\"\$PATH:$(pwd)\"" >> ~/.bash_profile && source ~/.bash_profil
 
 
 # reference site : 
+
+
+# https://github-wiki-see.page/m/pantelis-classes/omniverse-ai/wiki/TAO-%28NVIDIA-Train%2C-Adapt%2C-and-Optimize%29
+
+#
