@@ -1,7 +1,6 @@
 #!/bin/bash
 echo ngc API Key Location : nvidia-developer, setup, Generate Key 
 
-# ngc key : NmY2YjNxMXJ0ZHI2Mm5pcHA2MjRpc2VlbmE6MGVlNmNjMjMtNWRiOS00ODQ5LThkZDYtMThlZjkzYzM1MzZh
 
 curl https://get.docker.com | sh  && sudo systemctl start docker && sudo systemctl enable docker
 
