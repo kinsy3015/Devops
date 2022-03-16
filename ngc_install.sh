@@ -23,6 +23,30 @@ echo "export PATH=\"\$PATH:$(pwd)\"" >> ~/.bash_profile && source ~/.bash_profil
 
 
 
+sudo apt-get install virtualenv -y
+sudo apt-get install virtualenvwrapper -y
+
+sudo apt-get install python3-pip -y
+
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+
+
+
+sudo pip3 install virtualenvwrapper
+sudo pip3 install virtualenv
+source `which virtualenvwrapper.sh`
+export WORKON_HOME=~/.virtualenvs
+
+sudo pip3 install jupyter
+
+
+wget --content-disposition https://api.ngc.nvidia.com/v2/resources/nvidia/tao/cv_samples/versions/v1.2.0/zip -O cv_samples_v1.2.0.zip
+ unzip -u cv_samples_v1.2.0.zip  -d ./cv_samples_v1.2.0 && rm -rf cv_samples_v1.2.0.zip && cd ./cv_samples_v1.2.0
+
+
+jupyter notebook --ip 0.0.0.0 --port 8888 --allow-root
+
+
 
 
 # reference site : 
