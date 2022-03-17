@@ -78,3 +78,4 @@ reference site :
 https://lapina.tistory.com/133
 https://lapina.tistory.com/132
 https://developer.nvidia.com/cuda-gpus
+https://vi.stackexchange.com/questions/10385/find-and-replace-all-numbers-with-0 // vim replace number
