@@ -88,3 +88,4 @@ https://cyaninfinite.com/ros-cv-bridge-with-python-3/ // Compiling ROS cv_bridge
 
 https://blog.actorsfit.com/a?ID=00001-56638624-b245-400c-9039-38079a716289 => opencv4 version comflict error solution? (try another)
 https://github.com/ros-perception/vision_opencv/issues/205 => opencv4 version comflict error solution? (try another)
+https://github.com/ros-perception/vision_opencv/issues/329 => opencv4 version comflict error solution? (try another)
