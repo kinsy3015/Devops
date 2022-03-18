@@ -71,7 +71,9 @@ opencv version change (when new version opencv build)
 /usr/lib/aarch64-linux-gnu/cmake/opencv4/
 
 
+sudo apt-get install ros-(ROS version name)-cv-bridge
 
+sudo apt-get install ros-(ROS version name)-vision-opencv
 
 reference site :
 
