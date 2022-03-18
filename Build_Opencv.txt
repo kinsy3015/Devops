@@ -81,3 +81,4 @@ https://developer.nvidia.com/cuda-gpus
 https://vi.stackexchange.com/questions/10385/find-and-replace-all-numbers-with-0 // vim replace number
 https://github.com/ros-perception/vision_opencv/issues/272 // cv_bridge => opencv4 version comflict error solution
 https://cyaninfinite.com/ros-cv-bridge-with-python-3/ // Compiling ROS cv_bridge with Python 3
+==> sudo apt-get install python3-pip python-catkin-tools python3-dev python3-numpy => sudo apt-get install python3-pip python3-catkin-tools python3-dev python3-numpy
