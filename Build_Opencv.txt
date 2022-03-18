@@ -79,3 +79,5 @@ https://lapina.tistory.com/133
 https://lapina.tistory.com/132
 https://developer.nvidia.com/cuda-gpus
 https://vi.stackexchange.com/questions/10385/find-and-replace-all-numbers-with-0 // vim replace number
+https://github.com/ros-perception/vision_opencv/issues/272 // cv_bridge => opencv4 version comflict error solution
+https://cyaninfinite.com/ros-cv-bridge-with-python-3/ // Compiling ROS cv_bridge with Python 3
