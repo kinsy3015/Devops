@@ -12,7 +12,8 @@ git remote add main https://github.com/Devops.git
 ============================
 
 
-git add *
+//git add *
+git add -A
 git commit -m "update sh"
 *git branch other make branch
 *git checkout master
