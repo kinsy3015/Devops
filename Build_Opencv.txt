@@ -64,12 +64,15 @@ export PATH
 
 저장후 종료
 
+git clone https://github.com/ros-perception/vision_opencv.git
 
 opencv version change (when new version opencv build)
 /opt/ros/melodic/lib/pkgconfig/.pc(link opencv package)
 /usr/lib/aarch64-linux-gnu/pkgconfig/opencv4.pc 
 /usr/lib/aarch64-linux-gnu/cmake/opencv4/
 /opt/ros/melodic/share/cv_bridge/cmake
+
+sudo cp libcv_bridge.so  libimage_geometry.so /opt/ros/melodic/lib
 
 sudo apt-get install ros-(ROS version name)-cv-bridge
 
