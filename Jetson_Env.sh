@@ -40,3 +40,6 @@ sudo apt-get purge gdm3 -y
 
 # ubuntu startup-application cli :
 # gnome-session-properties 
+
+# gsettings set org.gnome.Vino require-encryption false
+
