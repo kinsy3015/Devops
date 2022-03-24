@@ -42,4 +42,4 @@ sudo apt-get purge gdm3 -y
 # gnome-session-properties 
 
 # gsettings set org.gnome.Vino require-encryption false
-
+# sudo ufw allow from 192.168.0.133 to any port 5900 proto tcp
