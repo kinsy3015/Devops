@@ -43,3 +43,15 @@ sudo apt-get purge gdm3 -y
 
 # gsettings set org.gnome.Vino require-encryption false
 # sudo ufw allow from 192.168.0.133 to any port 5900 proto tcp
+
+# sudo apt-get install dconf-editor -y
+
+# OR if you haven't installed vino yet, do both together:
+
+# sudo apt-get install vino dconf-editor
+
+# CONFIGURATION:
+
+# a. Open dconf-editor, then:
+# b. VNC settings can be accessed under org -> gnome -> desktop  -> remote-access
+
