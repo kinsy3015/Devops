@@ -52,3 +52,7 @@ instruction save && output terminal
 
 
 sudo find / -name "i2c" -type d
+
+
+tar cfz - ./인도보행영상 | ssh shkim@192.168.0.14 'cd /mnt/vol1/shkim/도로장애물표면인지영상-수도권/data; tar xfz -
+# compress & copy & ssh => alternative scp
