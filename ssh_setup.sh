@@ -11,3 +11,5 @@ systemctl enable ssh.socket
 sudo ufw enable
 
 sudo ufw allow 22/tcp
+
+sudo echo -e "sudo service ssh start" >> ~/.bashrc
