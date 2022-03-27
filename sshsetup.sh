@@ -7,3 +7,5 @@ sudo apt-get install ufw -y
 sudo update-rc.d ssh defaults
 
 systemctl enable ssh.socket
+
+sudo ufw enable
