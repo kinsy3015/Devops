@@ -9,3 +9,5 @@ sudo update-rc.d ssh defaults
 systemctl enable ssh.socket
 
 sudo ufw enable
+
+sudo ufw allow 22/tcp
