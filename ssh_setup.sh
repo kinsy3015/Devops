@@ -12,4 +12,6 @@ sudo ufw enable
 
 sudo ufw allow 22/tcp
 
+sudo ufw allow 5900
+
 sudo echo -e "sudo service ssh start" >> ~/.bashrc
