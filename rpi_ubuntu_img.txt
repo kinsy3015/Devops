@@ -1,0 +1,9 @@
+
+
+sudo snap install rpi-imager
+
+
+
+rpi4 b model not conflict ubuntu image site:
+
+https://github.com/TheRemote/Ubuntu-Server-raspi4-unofficial/releases
