@@ -12,3 +12,6 @@ https://github.com/TheRemote/Ubuntu-Server-raspi4-unofficial/releases
 reference site :
 
 https://changun516.tistory.com/75 //install rpi server desktop
+
+
+.xz file => xz -d .xz => resolve zipfile to zip
