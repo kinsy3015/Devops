@@ -74,3 +74,10 @@ reference site :
 
 https://www.kernel.org/doc/html/v4.10/media/kapi/csi2.html
 https://slowbootkernelhacks.blogspot.com/2020/06/pi-camera-sensor-camera-device-driver.html
+
+
+======================================================================================================
+
+sudo apt-get install libi2c-dev
+sudo apt-get install python-smbus python3-smbus
+sudo apt-get install i2c-tools
