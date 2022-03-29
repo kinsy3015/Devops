@@ -1,0 +1,2 @@
+almost C/C++ Extension problem
+=> in my case, go Extensions => C/C++ Extension pack disable => to change C/C++ Extension pack enable
