@@ -63,6 +63,8 @@ shell wait apt process :
 https://askubuntu.com/questions/132059/how-to-make-a-package-manager-wait-if-another-instance-of-apt-is-running
 
 ================================================================================================================================
+in my case, keyboard interrupt not work during install ros-melodic. then, i force reboot using cli
+=> after, generate apt-get dependency error
 
 apt-get dependency problems - leaving unconfigured [closed] :
 in my case, remove-install error ros-melodic-desktop-rosbash
@@ -108,3 +110,9 @@ E: Sub-process /usr/bin/dpkg returned an error code (1)
 
 solution :
 sudo apt install ros-melodic-desktop-rosbash --reinstall
+
+
+option (python-rosdep error) : 
+sudo rm /var/lib/dpkg/info/*
+sudo dpkg --configure -a
+sudo apt update -y
