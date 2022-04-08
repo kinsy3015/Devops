@@ -116,3 +116,9 @@ option (python-rosdep error) :
 sudo rm /var/lib/dpkg/info/*
 sudo dpkg --configure -a
 sudo apt update -y
+
+
+
+tar destination option : 
+tar xf file.tar.gz -C /root/Desktop/folder
+
