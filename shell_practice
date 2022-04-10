@@ -122,3 +122,5 @@ sudo apt update -y
 tar destination option : 
 tar xf file.tar.gz -C /root/Desktop/folder
 
+
+Fixed by :slight_smile: sudo dpkg -P --force-all PACKAGETOREMOVE etc. from the "Stuck in the loop" article
