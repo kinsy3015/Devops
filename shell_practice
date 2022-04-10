@@ -124,3 +124,9 @@ tar xf file.tar.gz -C /root/Desktop/folder
 
 
 Fixed by :slight_smile: sudo dpkg -P --force-all PACKAGETOREMOVE etc. from the "Stuck in the loop" article
+
+
+
+good reference site : rosdep error 
+
+https://devji.tistory.com/entry/TroubleShooting-python3-rospkg-modules-%EC%84%A4%EC%B9%98-%EC%97%90%EB%9F%AC-dpkg-error-processing-archive-trying-to-ovewrite
