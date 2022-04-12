@@ -1,0 +1,4 @@
+sudo resize2fs /dev/nvme0n1p7
+
+
+sudo e2fsck -f /dev/nvme0n1p7
