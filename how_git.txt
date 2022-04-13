@@ -67,3 +67,7 @@ git remote add origin git@gitlab.com:kinsy2011/test_repo.git
 git push -u origin --all
 git push -u origin --tags
 
+
+
+
+gitlab solution : ==> settings => Repository Settings => Protected branches => unProtect button click => blink Protect list
