@@ -67,12 +67,27 @@ git remote add origin git@gitlab.com:kinsy2011/test_repo.git
 git push -u origin --all
 git push -u origin --tags
 ===============================================================================================
+git remote add nickname_remote_address real_web_address 
+ex.git remote add main address
 
 git push remote_repository currently_branch
-
 ex. git branch test
+
 git checkout test
-git push 
+git push main test => right
+
+< = >
+
+git checkout master
+git push main master => wrong
+
+git checkout test
+git push main master => wrong
+
+
+:: linux terminal git cli :: git checkout => file local  
+
+=================================================================================================
 
 
 
