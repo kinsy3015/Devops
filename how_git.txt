@@ -86,6 +86,17 @@ git push main master => wrong
 
 
 :: linux terminal git cli :: git checkout => file local  
+:: git push after remove file => repository remove file ( OK )
+:: git config email => git email, username => username
+git push => username => not email => 
+ex. gitlab email => kinsy2011@gmail.com
+    gitlab nickname => Sleepfuler
+   
+   
+then => push => usernmae : Sleepfuler
+then => push => password : access token
+
+
 
 =================================================================================================
 
