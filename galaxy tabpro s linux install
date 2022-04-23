@@ -1,0 +1,15 @@
+grub-boot-menu not appear : LIVECD or LIVE_LINUX_USB => install boot-repair => start boot-repair => reboot
+
+
+sudo add-apt-repository ppa:yannubuntu/boot-repair
+
+sudo apt-get update
+
+sudo apt-get install boot-repair
+boot-repair
+
+
+https://github.com/infernix/samsung_tabpro_s => download firmware source => sudo rm -rf /lib/firmware/ath10k
+
+
+=> replace => sudo cp -rf ~/Downloads/samsung_tabpro_s/ath10k/ /lib/firmware
