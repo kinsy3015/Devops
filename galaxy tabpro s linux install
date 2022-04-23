@@ -1,3 +1,27 @@
+linux kernel in my case , 4.9.311 downloads => build => install
+
+sudo apt-get install bison flex ncurses-dev libssl-dev
+
+
+error solved : certification error => google search =>? scripts/config --disalbe sertificaton_???
+
+
+1. make menuconfig
+2. sudo make
+3. sudo make modules
+4. sudo make modules_install
+5. sudo make install
+
+
+
+reference site :
+
+
+https://5equal0.tistory.com/entry/Linux-Kernel-Kernel-%EB%B9%8C%EB%93%9C-%EB%B0%8F-%EC%84%A4%EC%B9%98
+
+
+
+
 grub-boot-menu not appear : LIVECD or LIVE_LINUX_USB => install boot-repair => start boot-repair => reboot
 
 
