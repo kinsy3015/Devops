@@ -130,3 +130,36 @@ Fixed by :slight_smile: sudo dpkg -P --force-all PACKAGETOREMOVE etc. from the "
 good reference site : rosdep error 
 
 https://devji.tistory.com/entry/TroubleShooting-python3-rospkg-modules-%EC%84%A4%EC%B9%98-%EC%97%90%EB%9F%AC-dpkg-error-processing-archive-trying-to-ovewrite
+
+
+===================================================================================================================================================================================
+
+
+https://access.redhat.com/solutions/26045
+
+Resolution
+
+To create a compressed disk image with "dd" :
+
+    Boot into rescue mode with the installation media
+
+    Create a mount point for your external drive:
+    Raw
+
+    # mkdir /mnt/external
+
+    Mount your external drive:
+    Raw
+
+    # mount /dev/sdb1 /mnt/external
+
+    Create the compressed disk image:
+    Raw
+
+    # dd if=/dev/sda | gzip -9 > /mnt/external/filename.img.gz
+
+To recover this in future, run the following command :
+Raw
+
+# zcat /mnt/external/filename.img.gz | dd of=/dev/sda
+
