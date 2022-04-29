@@ -4,4 +4,8 @@ sudo resize2fs /dev/nvme0n1p7
 sudo e2fsck -f /dev/nvme0n1p7
 
 
+external storage uuid => auto mount when booting => sudo cp /etc/fstab /etc/fstab.bak => vim /etc/fstab
+
+test fstab cli => findmnt --verify
+
 https://hiseon.me/linux/lvm-configuration/
