@@ -17,3 +17,10 @@ make menuconfig
 # sudo make modules_install
 # sudo make install
 # reboot
+
+
+# https://junshim.github.io/linux%20kernel%20study/Linux_Kernel_Compile/
+
+# cp arch/x86/configs/x86_64_deconfig .config
+# make bzImage
+# cp arch/x86/boot/bzImage /boot/vmliux
