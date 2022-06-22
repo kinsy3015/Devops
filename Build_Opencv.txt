@@ -97,6 +97,8 @@ https://github.com/ros-perception/vision_opencv/issues/205 => opencv4 version co
 https://github.com/ros-perception/vision_opencv/issues/329 => opencv4 version comflict error solution? (try another)
 https://blog.csdn.net/qq_18276949/article/details/107014026 => opencv4 version comflict error solution? (try another)
 
+https://askubuntu.com/questions/26498/how-to-choose-the-default-gcc-and-g-version //alternative gcc
+
 ======================================================================================================================
 pre_install_linux_package_list :
 
