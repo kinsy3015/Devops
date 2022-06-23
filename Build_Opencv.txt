@@ -99,6 +99,8 @@ https://blog.csdn.net/qq_18276949/article/details/107014026 => opencv4 version c
 
 https://askubuntu.com/questions/26498/how-to-choose-the-default-gcc-and-g-version //alternative gcc
 
+https://forums.developer.nvidia.com/t/how-to-install-old-jetpack-version/169994 // jetpack old version sdkmanager
+
 ======================================================================================================================
 pre_install_linux_package_list :
 
